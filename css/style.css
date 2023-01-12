@@ -149,6 +149,10 @@ body::before {
   overflow: hidden;
 }
 
+.work-links__list .list-item:focus-visible {
+  border-radius: 10px;
+}
+
 .work-link {
   position: relative;
 }
