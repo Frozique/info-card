@@ -1,7 +1,11 @@
-@media (max-width: 480px) {
+@media (max-width: 590px) {
   .container .info__card {
     padding-left: 30px;
     padding-right: 30px;
     max-width: 400px;
+  }
+
+  .work-links__list .list-item {
+    flex-basis: 100%;
   }
 }
