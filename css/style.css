@@ -132,6 +132,14 @@ body::before {
   align-items: center;
 }
 
+.work-links__list .list-item:hover {
+  background-color: rgba(255, 255, 255, .6);
+}
+
+.work-links__list .list-item:active {
+  background-color: rgba(255, 255, 255, .1);
+}
+
 .work-links__list .list-item {
   display: flex;
   flex-direction: column;
@@ -206,6 +214,23 @@ body::before {
   align-items: center;
 }
 
+.contacts-list .list-item:hover {
+  transform: scale(1.1);
+}
+
+.contacts-list .list-item:active {
+  transform: scale(1);
+}
+
+.contacts-list .list-item:hover span {
+  text-shadow: 1px 1px 10px white;
+}
+
+.contacts-list .list-item:active span {
+  text-shadow: 1px 1px 10px white;
+}
+
+
 .contacts-list .list-item span {
   font-size: 15px;
   color: #fff;
@@ -217,3 +242,6 @@ body::before {
   max-width: 60px;
   max-height: 60px;
 }
+
+
+
