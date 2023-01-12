@@ -8,4 +8,9 @@
   .work-links__list .list-item {
     flex-basis: 100%;
   }
+
+  .location {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
